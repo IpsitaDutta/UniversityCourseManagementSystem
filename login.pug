@@ -1,0 +1,10 @@
+html
+    body
+        h1 #{appName}
+        h2 Login
+        form(action="/login" method="post")
+            label Name
+            input(type="text" name="user")
+            label Password
+            input(type="password" name="password")
+            input(type="submit")
